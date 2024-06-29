@@ -61,6 +61,8 @@ cv::imshow("Red Channel",different_channel[2]);
 
 ```
 **Heres the output of different color channels**
+
+
 ![BGR channel](img/ColorSpace.png)
 
 
