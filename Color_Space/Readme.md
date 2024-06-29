@@ -3,7 +3,8 @@
 ## Image formation
 Lets take a example of an image given below :
 
-![Uploading image.png…]()
+![image_abraham2](https://github.com/swodesh-2001/ComputerVision-C/assets/70265297/edf0d646-9ac7-419e-bcb9-16d271b99ca6)
+
 
 
 The above image is a single channel image and if we zoom it into the image further, it is made up of different pixels. The intensity of pixels varies from 0 to 255. O represents complete black and 255 represent pure white.
@@ -73,7 +74,7 @@ cv::imshow("Red Channel",different_channel[2]);
 
 * `Value` is basically the brightnessof the color. It ranges from 0-100 %.
 
-![HSV](https://www.researchgate.net/profile/Wei-Ling-Chen-7/publication/312678134/figure/fig4/AS:523310685736960@1501778398151/HSV-color-space-and-RGB-color-transformation.png)
+![image_hsv](https://github.com/swodesh-2001/ComputerVision-C/assets/70265297/b484b1f1-2bf4-4e2e-9e8d-b1e756b25e7e)
 
 **Converting BGR to HSV in OpenCV**
 
