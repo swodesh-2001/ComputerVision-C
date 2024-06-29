@@ -3,15 +3,18 @@
 ## Image formation
 Lets take a example of an image given below :
 
-![abraham lincon]( https://tile.loc.gov/storage-services/service/pnp/ppmsca/19300/19301v.jpg)
+![Uploading image.png…]()
+
 
 The above image is a single channel image and if we zoom it into the image further, it is made up of different pixels. The intensity of pixels varies from 0 to 255. O represents complete black and 255 represent pure white.
 
-![abraham zoom ](https://www.researchgate.net/publication/330902210/figure/fig1/AS:878026619375622@1586349267376/mage-of-Abraham-Lincoln-as-a-matrix-of-pixel-values.ppm)
+![image1](https://github.com/swodesh-2001/ComputerVision-C/assets/70265297/cb9b9d98-809e-4a47-9e07-85091372ea9d)
+
 
 For a colorful image they will have three channels RGB whose each intensity varies from 0 to 255.
 
-![RGB Space](https://www.researchgate.net/profile/Jane-Courtney/publication/267210444/figure/fig6/AS:295732335661069@1447519491773/A-three-dimensional-RGB-matrix-Each-layer-of-the-matrix-is-a-two-dimensional-matrix.png)
+![RGB_space](https://github.com/swodesh-2001/ComputerVision-C/assets/70265297/2930a6e5-e72a-428f-af75-dea41a7a8726)
+
 
 ## Color Space
 Color space refers to the specific organization of colors to represent the image.
@@ -42,7 +45,8 @@ In RGB color space more the the intensities of each channel is increased more th
 
 One color image matrix = red matrix + blue matrix + green matrix
 
-![rgb](https://mlt4nthayffh.i.optimole.com/cb:Ulc_.46e4f/w:400/h:244/q:mauto/f:best/https://www.nixsensor.com/wp-content/uploads/2018/02/rgb_model.gif)
+![image](https://github.com/swodesh-2001/ComputerVision-C/assets/70265297/8212ab21-daaa-4321-923d-8a860e9bca97)
+
 
 OpenCV uses color format `BGR` instead of `RGB`
 
